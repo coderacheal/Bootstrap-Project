@@ -1,95 +1,92 @@
 .brand-logo {
-    color: blue;
+  color: blue;
 }
 
 #intro-session {
-    background-color: red;
-    width: 850px;
-    padding-top: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 100px;
-    font-size: 20px;
-    padding: 50px;
+  background-color: red;
+  width: 850px;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+  font-size: 20px;
+  padding: 50px;
 }
 
 
 .individual-social-icons {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .intro-session {
-    border-bottom-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 .major-intro-container {
-    background-color: #fff;
-    height: 650px;
-    border-bottom-left-radius: 120px;
-    margin-bottom: 150px;
+  background-color: #fff;
+  height: 650px;
+  border-bottom-left-radius: 120px;
+  margin-bottom: 150px;
 
 }
 .intro-container {
-    // background-color: red;
-    margin-top: 200px;
-    width: 500px;
+  margin-top: 200px;
+  width: 500px;
 }
 
 .major-project-container {
-    // width: 600px;
-    background-color: #e5e5e5;
-    margin: 0;
+  background-color: #e5e5e5;
+  margin: 0;
 }
 .project-container {
-    background-color: white;
-    padding: 30px;
-    border-radius: 20px;
-    // margin-top: 150px;
-    margin-bottom: 150px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 150px;
 
 }
 .project-info-div {
-    padding-right: 100px;
-    margin-top: 50px;
-    width: 600px;
+  padding-right: 100px;
+  margin-top: 50px;
+  width: 600px;
 }
 
 .see-project-btn {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 span {
-    font-family: poppins, monospace;
-    font-size: 18px;
+  font-family: poppins, monospace;
+  font-size: 18px;
 }
 
 .ind-project-description {
-    font-family: poppins, monospace;
-    font-size: 18px;
-    font-weight: 400;
+  font-family: poppins, monospace;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .project-button {
-    padding: 10px;
-    background-color: #ebebff;
-    border-radius: 10px;
-    border: 0;
-    margin-right: 15px;
+  padding: 10px;
+  background-color: #ebebff;
+  border-radius: 10px;
+  border: 0;
+  margin-right: 15px;
 }
 
 .see-project-btn {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .project-subtitle {
-    color: #6b778c;
+  color: #6b778c;
 }
 
 .project-img {
-    margin-right: 0;
+  margin-right: 0;
 }
 .project-img:hover {
-    border: 2px solid;
-    border-color:#6b778c;
-    border-radius: 20px;
+  border: 2px solid;
+  border-color:#6b778c;
+  border-radius: 20px;
 }
