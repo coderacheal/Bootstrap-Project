@@ -5,13 +5,13 @@
 #intro-session {
   background-color: red;
   width: 850px;
-  padding-top: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 100px;
   font-size: 20px;
   padding: 50px;
+  padding-top: 200px;
 }
 
 .individual-social-icons {
@@ -50,10 +50,6 @@
   padding-right: 100px;
   margin-top: 50px;
   width: 600px;
-}
-
-.see-project-btn {
-  margin-top: 20px;
 }
 
 span {
