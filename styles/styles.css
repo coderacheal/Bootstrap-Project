@@ -1,3 +1,23 @@
 #intro-section {
   background-image: url("/images/header-image.png");
+}
+
+.card-div {
+  display: flex;
+}
+
+#okay {
+  background-color: red;
+  width: 850px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.individual-social-icons {
+  margin-right: 20px;
 }/*# sourceMappingURL=styles.css.map */
