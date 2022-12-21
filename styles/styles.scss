@@ -1,16 +1,11 @@
-#intro-section {
-    background-image: url('/images/header-image.png');
+.brand-logo {
+    color: blue;
 }
 
-.card-div {
-    display: flex;
-}
-
-
-#okay {
+#intro-session {
     background-color: red;
     width: 850px;
-    margin-top: 200px;
+    padding-top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +14,82 @@
     padding: 50px;
 }
 
+
 .individual-social-icons {
     margin-right: 20px;
+}
+
+.intro-session {
+    border-bottom-left-radius: 50px;
+}
+.major-intro-container {
+    background-color: #fff;
+    height: 650px;
+    border-bottom-left-radius: 120px;
+    margin-bottom: 150px;
+
+}
+.intro-container {
+    // background-color: red;
+    margin-top: 200px;
+    width: 500px;
+}
+
+.major-project-container {
+    // width: 600px;
+    background-color: #e5e5e5;
+    margin: 0;
+}
+.project-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    // margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+.project-info-div {
+    padding-right: 100px;
+    margin-top: 50px;
+    width: 600px;
+}
+
+.see-project-btn {
+    margin-top: 20px;
+}
+
+span {
+    font-family: poppins, monospace;
+    font-size: 18px;
+}
+
+.ind-project-description {
+    font-family: poppins, monospace;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.project-button {
+    padding: 10px;
+    background-color: #ebebff;
+    border-radius: 10px;
+    border: 0;
+    margin-right: 15px;
+}
+
+.see-project-btn {
+    font-weight: 700;
+}
+
+.project-subtitle {
+    color: #6b778c;
+}
+
+.project-img {
+    margin-right: 0;
+}
+.project-img:hover {
+    border: 2px solid;
+    border-color:#6b778c;
+    border-radius: 20px;
 }
