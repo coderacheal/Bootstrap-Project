@@ -96,11 +96,56 @@ span {
 }
 
 .contact-form {
-  height: 500px;
+  height: 750px;
   background-color: #6070ff;
   border-top-left-radius: 120px;
 }
 
 .about-me-details {
   height: 500px;
+}
+
+.contact-text {
+  font-family: Poppins, monospace;
+  font-size: 40px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact-description {
+  color: white;
+  font-family: Poppins, monospace;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#footer-btn {
+  padding: 15px;
+  background-color: white;
+  font-size: 17px;
+  font-weight: bold;
+  width: 30%;
+}
+
+#footer-btn:hover {
+  color: white;
+  background-color: #6070ff;
+}
+
+.input-form-div {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+input {
+  padding: 15px;
+  justify-content: center;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
