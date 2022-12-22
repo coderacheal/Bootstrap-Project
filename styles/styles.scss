@@ -69,6 +69,7 @@ span {
   border-radius: 10px;
   border: 0;
   margin-right: 15px;
+  margin-bottom: 20px;
 }
 
 .see-project-btn {
@@ -102,7 +103,7 @@ span {
 }
 
 .about-me-details {
-  height: 500px;
+  height: 650px;
 }
 
 .contact-text {
@@ -148,4 +149,34 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.about-me-title {
+  font-family: Poppins, monospace;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.about-me-description {
+  font-family: Poppins, monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.connection {
+  font-family: Poppins, monospace;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6070ff;
+}
+
+.tech-stack {
+  font-family: Poppins, monospace;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 30px;
 }
