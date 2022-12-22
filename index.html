@@ -189,12 +189,19 @@
 
       <div class="container-fluid about-me">
         <div class="container about-me-details"></div>
-        <div class="container-fluid contact-form">
+        <div class="container-fluid contact-form" stl>
           <form action="#">
-            <div class="form-floating">
-                <input type="text" placeholder="Enter your name" />
-                <input type="email" placeholder="Enter your email" />
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div class="container form-floating form-div" style="width: 40%; padding-top: 150px;">
+                <h2 class="contact-text">Contact me</h2>
+                <p class="contact-description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                <div class='row gy-3 text-center'>
+                    <input type="text" placeholder="Enter your name" style="width: 55%;" required/>
+                    <input type="email" placeholder="Enter your email" style="width: 55%;" required />
+                    <textarea placeholder="Enter your message here" cols="30" rows="6"  style="width: 55%;" required></textarea>
+                    <div>
+                        <button class="btn btn-outline-primary" id="footer-btn">Get in touch</button>
+                    </div>
+                </div>
             </div>
           </form>
         </div>
