@@ -3,7 +3,6 @@
 }
 
 #intro-session {
-  background-color: red;
   width: 850px;
   display: flex;
   flex-direction: column;
@@ -30,8 +29,7 @@
 }
 
 .intro-container {
-  margin-top: 200px;
-  width: 500px;
+  padding: 200px;
 }
 
 .major-project-container {
